@@ -1,0 +1,47 @@
+html {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.redHighLight {
+  display: inline-block;
+  background-color: tomato;
+  color: white;
+}
+
+.redBox {
+  background-color: tomato;
+  border: solid 1px black;
+  color: white;
+  margin: 10px;  
+}
+
+#bold {
+  font-weight: bold;
+}
+
+.threeStooges {
+  /*background-image: url ('https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555321935/shape/mentalfloss/stooges_primary.jpg');*/
+  background-image: url('image/three_stooges.jpg');
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  display: inline-block;
+}
+
+#moe{
+  background-position: 3% 25%;
+}
+
+#larry{
+  background-position: 42% 35%;
+}
+
+#curly{
+  background-position: 85% 25%;
+}
+
+/* 
+    <img class='moe' src='https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555321935/shape/mentalfloss/stooges_primary.jpg'>
+*/
